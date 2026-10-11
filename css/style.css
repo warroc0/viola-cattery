@@ -62,5 +62,6 @@ nav li.lang a:hover{background:var(--accent);color:#fff}
 figure.photo.doc{background:#fff}
 .gallery figure.photo.doc img{object-fit:contain;object-position:center}
 figure.photo figcaption{position:absolute;left:8px;bottom:8px;background:rgba(47,42,51,.78);color:#fff;font-size:.85rem;padding:4px 10px;border-radius:999px}
-/* Neoncat membership */
+/* Neocat membership */
 p.member{display:inline-block;background:#fff;border:2px solid var(--accent);border-radius:999px;padding:6px 16px;margin:4px 0 14px;font-size:1.05rem}
+.card.neocat{margin:0 0 18px}
