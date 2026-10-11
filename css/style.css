@@ -59,3 +59,6 @@ body{overflow-x:hidden}
 nav li.lang a{border:1px solid var(--accent);color:var(--accent);font-weight:600;letter-spacing:.5px;margin-left:6px}
 nav li.lang a:hover{background:var(--accent);color:#fff}
 @media (max-width:820px){nav li.lang a{margin-left:0;display:inline-block;margin-top:6px}}
+figure.photo.doc{background:#fff}
+.gallery figure.photo.doc img{object-fit:contain;object-position:center}
+figure.photo figcaption{position:absolute;left:8px;bottom:8px;background:rgba(47,42,51,.78);color:#fff;font-size:.85rem;padding:4px 10px;border-radius:999px}
