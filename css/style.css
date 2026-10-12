@@ -69,3 +69,18 @@ p.member{display:inline-block;background:#fff;border:2px solid var(--accent);bor
 .card figure.photo.doc{margin-top:14px;box-shadow:none;border:1px solid var(--line)}
 .card figure.photo.doc img{height:auto;aspect-ratio:auto;object-fit:contain}
 .card figure.photo.doc figcaption{position:static;display:block;border-radius:0;background:var(--accent-2);color:var(--ink);padding:6px 12px}
+/* Polaroid-stijl kattenfoto's (niet de stamboomscans) */
+figure.photo:not(.doc){border-radius:4px;background:#1d1b1f;padding:10px 10px 34px;box-shadow:0 10px 24px rgba(47,42,51,.22);transform:rotate(-2.5deg);transition:transform .25s ease}
+figure.photo:not(.doc) img{border-radius:2px}
+.gallery .grid3 figure.photo:not(.doc){margin:-6px}
+.gallery figure.photo:not(.doc):nth-child(4n+1){transform:rotate(-3.5deg)}
+.gallery figure.photo:not(.doc):nth-child(4n+2){transform:rotate(2.5deg) translateY(10px);z-index:1}
+.gallery figure.photo:not(.doc):nth-child(4n+3){transform:rotate(-1.5deg)}
+.gallery figure.photo:not(.doc):nth-child(4n){transform:rotate(3.5deg) translateY(8px);z-index:1}
+.grid2 > figure.photo:not(.doc),.hero figure.photo:not(.doc){transform:rotate(2.5deg)}
+figure.photo:not(.doc):hover{transform:rotate(0) scale(1.02);z-index:2}
+@media (max-width:640px){
+ figure.photo:not(.doc),.gallery figure.photo:not(.doc):nth-child(n),.grid2 > figure.photo:not(.doc),.hero figure.photo:not(.doc){transform:rotate(0);margin:0;padding:8px 8px 26px}
+ .gallery .grid3 figure.photo:not(.doc){margin:0}
+ main{overflow-x:hidden}
+}
