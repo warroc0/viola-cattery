@@ -84,3 +84,4 @@ figure.photo:not(.doc):hover{transform:rotate(0) scale(1.02);z-index:2}
  .gallery .grid3 figure.photo:not(.doc){margin:0}
  main{overflow-x:hidden}
 }
+.neocat-logo{display:inline-block;margin-bottom:12px}.neocat-logo img{width:72px;max-width:20vw;height:auto}
