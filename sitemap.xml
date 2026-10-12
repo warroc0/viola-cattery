@@ -60,4 +60,16 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://warroc0.github.io/viola-cattery/contact.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://warroc0.github.io/viola-cattery/en/contact.html"/>
   </url>
+  <url>
+    <loc>https://warroc0.github.io/viola-cattery/fotos.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warroc0.github.io/viola-cattery/fotos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://warroc0.github.io/viola-cattery/en/photos.html"/>
+  </url>
+  <url>
+    <loc>https://warroc0.github.io/viola-cattery/en/photos.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://warroc0.github.io/viola-cattery/fotos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://warroc0.github.io/viola-cattery/en/photos.html"/>
+  </url>
 </urlset>
