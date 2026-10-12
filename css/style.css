@@ -65,3 +65,7 @@ figure.photo figcaption{position:absolute;left:8px;bottom:8px;background:rgba(47
 /* Neocat membership */
 p.member{display:inline-block;background:#fff;border:2px solid var(--accent);border-radius:999px;padding:6px 16px;margin:4px 0 14px;font-size:1.05rem}
 .card.neocat{margin:0 0 18px}
+.card + .card{margin-top:16px}
+.card figure.photo.doc{margin-top:14px;box-shadow:none;border:1px solid var(--line)}
+.card figure.photo.doc img{height:auto;aspect-ratio:auto;object-fit:contain}
+.card figure.photo.doc figcaption{position:static;display:block;border-radius:0;background:var(--accent-2);color:var(--ink);padding:6px 12px}
