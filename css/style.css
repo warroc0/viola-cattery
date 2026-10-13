@@ -125,3 +125,5 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-off
 .card figure.cat-portrait img{aspect-ratio:4/5}
 .card figure.photo.doc{clear:both}
 @media (max-width:640px){.card figure.cat-portrait{float:none;width:min(260px,80%);margin:0 auto 16px;transform:none}}
+.kitten-card .badge{align-self:flex-start;margin:12px 0 0;padding:3px 12px;border-radius:999px;background:#ece9ee;color:#4a4450;font-size:.85rem;font-weight:600}
+.kitten-card.sold .kitten-photo{opacity:.85}
