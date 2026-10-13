@@ -101,3 +101,8 @@ a.lb-open:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
 .lb-next{right:10px;top:50%;transform:translateY(-50%)}
 body.lb-lock{overflow:hidden}
 @media (max-width:640px){.lightbox{padding:60px 8px 72px}.lb-prev,.lb-next{top:auto;bottom:12px;transform:none}.lb-prev{left:calc(50% - 58px)}.lb-next{right:calc(50% - 58px)}.lb-fig img{max-height:calc(100vh - 150px);border-width:6px 6px 20px}}
+/* Toegankelijkheid */
+.skip{position:absolute;left:8px;top:-60px;z-index:200;background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;font-weight:600;text-decoration:none}
+.skip:focus{top:8px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
