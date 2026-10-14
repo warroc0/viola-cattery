@@ -147,3 +147,4 @@ figure.photo.doc{box-shadow:0 6px 18px rgba(80,30,45,.12)}
  body::before{width:96px;height:96px;top:auto;bottom:16px;right:-14px;opacity:.12}
  body::after{display:none}
 }
+.kitten-photo img{object-position:center 30%}
