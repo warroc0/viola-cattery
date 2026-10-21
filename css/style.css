@@ -161,3 +161,10 @@ body::after{background-image:var(--blossom);background-size:contain;width:190px;
 @media (max-width:1180px){.hero::before{right:-20px;top:-40px;width:120px;height:120px;opacity:.4}}
 @media (max-width:820px){.hero::before{display:none}}
 body:has(.hero)::before{display:none}
+/* === KERSTBANNER start (tijdelijk) === */
+.kerstbanner{margin:0 0 32px}
+.kerstbanner figure{margin:0;position:relative;border-radius:var(--radius);overflow:hidden;background:#3a1f22;box-shadow:0 12px 28px rgba(80,30,45,.22)}
+.kerstbanner img{width:100%;height:auto;aspect-ratio:16/7;object-fit:cover;object-position:50% 22%}
+.kerstbanner figcaption{position:absolute;left:0;right:0;bottom:0;padding:14px 20px;background:linear-gradient(transparent,rgba(30,12,16,.82));color:#fff;font-family:Georgia,serif;font-size:1.35rem;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+@media (max-width:640px){.kerstbanner img{aspect-ratio:4/3;object-position:50% 26%}.kerstbanner figcaption{font-size:1.1rem;padding:10px 14px;position:static;background:#4a2228}}
+/* === KERSTBANNER eind === */
